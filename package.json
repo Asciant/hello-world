@@ -1,0 +1,25 @@
+{
+  "name": "Hello-World",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asciant/Hello-World.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asciant/Hello-World/issues"
+  },
+  "homepage": "https://github.com/Asciant/Hello-World#readme",
+  "devDependencies": {
+    "shipit-cli": "^5.1.0",
+    "shipit-deploy": "^5.1.0",
+    "shipit-shared": "^4.4.2"
+  }
+}

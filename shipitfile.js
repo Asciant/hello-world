@@ -7,7 +7,7 @@ module.exports = shipit => {
   shipit.initConfig({
     default: {
       deployTo: '/home/deployer/example.com',
-      repositoryUrl: 'git@github.com:Asciant/Hello-World.git',
+      repositoryUrl: 'https://github.com/Asciant/Hello-World.git',
       keepReleases: 5,
       shared: {
         overwrite: true,

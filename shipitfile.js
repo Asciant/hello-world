@@ -70,6 +70,10 @@ module.exports = {
     shipit.start('npm-install', 'copy-config');
   });
 
+  shipit.on('rollback', async () => {
+    shipit.start('npm-install', 'copy-config');
+  });
+
   shipit.on('published', async () => {
     shipit.start('pm2-server');
   });
